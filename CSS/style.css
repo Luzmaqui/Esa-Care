@@ -1,0 +1,516 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff
+
+}
+
+/* MENU */
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    max-width: 10%;
+}
+
+.menu ul li i {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+.banner {
+    max-width: 100%;
+    display: block;
+}
+
+/* titulos*/
+.titulo {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #ffffff;
+}
+
+.titulo h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #3a3a3a;
+}
+
+.back {
+    font-size: 40px;
+    color: #98f5a9;
+}
+
+/*SECCION QUIENES SOMOS*/
+#nosotros {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background-color: #ffffff;
+}
+
+.descripcion{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.datos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mision, .vision, .valores{
+    margin: 30px auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    color: #3A3A3A;
+
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f6f6f6, #f0f0f0);
+    box-shadow:  10px 10px 20px #bababa,
+                 -10px -10px 20px #ffffff;
+}
+
+.datos .icono {
+    font-size: 60px;
+    text-align: center;    
+    color:#ffbfb3;
+}
+
+.datos h3 {
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 10px 0;
+    color:#888888;
+}
+
+.valores ul {
+    list-style: none;
+    margin: 10px 0;
+    color: #888888;
+}
+
+/* SECCIÓN PROMOCIONES */
+#promos {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    background-color: #ffffff;
+}
+
+.ofertas {
+    max-width: 1280px;
+    margin: 0  auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ofertas .item {
+    max-width: 300px;
+    background-color: #f5c5bc35;
+    margin: 10px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.ofertas .item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.ofertas .item h3 {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.ofertas .item p {
+    margin: 0;
+    padding: 20px 20px;
+}
+strong{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ofertas .item button {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #98f5a9;
+    color: #3a3a3a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ofertas .item button:hover {
+    background-color: #aff2f0;
+}
+
+.mas img{
+    max-width: 300px;
+    max-height: auto;
+    flex: 1;
+    background-color: #f5c5bc35;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+/* SECCION RESEÑAS */
+.resenas {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.resenas .titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resenas .titulo h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #3a3a3a;
+}
+
+.resenas .titulo .back {
+    font-size: 40px;
+    color: #98f5a9;
+}
+
+.opiniones {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.opiniones .comentario {
+    max-width: 300px;
+    background-color: #f5c5bc35;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.opiniones .comentario img {
+    width: 70%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.opiniones .comentario h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.opiniones .comentario p {
+    margin: 10px 0;
+}
+
+.valoracion {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.valoracion li {
+    margin: 0 2px;
+    font-size: 25px;
+}
+
+.valoracion li i {
+    color: #FFD700;
+}
+
+
+/* SECCION PRODUCTOS */
+#productos {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background-color: #ffffff;
+}
+
+.favoritos {
+    max-width: 1280px;
+    margin: 0  auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.favoritos .item {
+    max-width: 300px;
+    background-color: #f5c5bc35;
+    margin: 10px 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.favoritos .item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.favoritos .item h3 {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.favoritos .item p {
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.favoritos .item ul li {
+    text-align: left;
+}
+
+
+.favoritos .item button {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #98f5a9;
+    color: #3a3a3a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.favoritos .item button:hover {
+    background-color: #aff2f0;
+}
+
+/* SECCION CONTACTO */
+#contacto {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contacto-izq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 280px;
+    margin: auto;
+}
+
+.contacto-izq ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-izq li {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+
+
+.contacto-der {
+    max-width: 1000;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 2;
+    padding: 50px;
+}
+
+.contacto-der .titulo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.back {
+    font-size: 40px;
+    color: #98f5a9;
+}
+
+.contacto-der .titulo h2 {
+    margin: 0;
+    font-size: 2em;
+    color: #3a3a3a;
+}
+
+.contacto-der .titulo p {
+    margin: 10px 0;
+}
+
+.contacto-der form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-der form input, .contacto-der form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.contacto-der form button {
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #98f5a9;
+    color: #3a3a3a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto-der form button:hover {
+    background-color: #0056b3;
+}
+
+/* FOOTER */
+footer {
+    background-color: #ffbfb3;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .izquierda, footer .derecha {
+    flex: 1;
+    padding: 20px;
+}
+
+footer .izquierda img {
+    width: 40%;
+    height: auto;
+}
+
+footer .derecha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .derecha img{
+    width: 80%;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 800px){
+    .menu ul li i{
+        color: #3a3a3a;
+        font-size: 30px;
+        display: flex;
+        justify-content: right;
+    }
+    .menu ul li a{
+        display: none;
+    }
+    
+    .datos{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .ofertas {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+    .opiniones {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .favoritos {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+    }
+
+    footer .derecha{
+        display: flex;
+        flex-direction: wrap column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px){
+    .opiniones {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: wrap column;
+        justify-content: space-between center;
+    }
+}
